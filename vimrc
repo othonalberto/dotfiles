@@ -48,3 +48,17 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/vim-xmark', { 'do': 'make' }
+
+call plug#end()
+
+nmap <F2> :w<CR> 
+nmap <F6> :NERDTree<CR>
+nmap <F7> :NERDTreeClose<CR>
+
+" Shortcuts for tabs
+nmap <leader>tn :tabn<CR>
+nmap <leader>tp :tabp<CR>
+
