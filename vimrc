@@ -31,6 +31,7 @@ set noswapfile
 set number
 set ruler
 filetype off
+set title
 
 set updatetime=250
 
