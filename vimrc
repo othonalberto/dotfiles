@@ -40,7 +40,7 @@ nmap <leader>gd :Gdiff<cr>
 nmap <leader>gc :Gcommit<cr>
 nmap <leader>gp :Gpush<cr>
 
-call plug#begin()
+call plug#begin("~/.vim/plugged")
 
 Plug 'vim-scripts/c.vim'
 Plug 'vim-airline/vim-airline'
