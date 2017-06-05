@@ -32,6 +32,7 @@ set number
 set ruler
 filetype off
 set title
+set cursorline
 
 set updatetime=250
 
