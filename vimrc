@@ -1,4 +1,4 @@
-" Author: @othonalberto
+" by @othonalberto
 
 set encoding=utf-8
 set nocompatible
@@ -57,6 +57,7 @@ nmap <leader>nc :NERDTreeClose<CR>
 " Tabs shortcuts 
 nmap <leader>tn :tabn<CR>
 nmap <leader>tp :tabp<CR>
+nmap <leader>tc :tabclose<CR>
 
 " Fugitive shortcuts - Thanks, @ArrowsX 
 nmap <leader>gs :Gstatus<CR>
