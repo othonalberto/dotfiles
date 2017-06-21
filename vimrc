@@ -13,7 +13,7 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set textwidth=120
+set textwidth=80
 
 " Theme
 syntax on
@@ -33,14 +33,7 @@ set ruler
 filetype off
 set title
 set cursorline
-
 set updatetime=250
-
-" Shortcuts for fugitive.vim - Thanks, @ArrowsX
-nmap <leader>gs :Gstatus<CR>
-nmap <leader>gd :Gdiff<cr>
-nmap <leader>gc :Gcommit<cr>
-nmap <leader>gp :Gpush<cr>
 
 call plug#begin("~/.vim/plugged")
 
@@ -53,14 +46,24 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/vim-xmark', { 'do': 'make' }
+Plug 'lervag/vimtex'
 
 call plug#end()
 
-nmap <F2> :w<CR> 
-nmap <F6> :NERDTree<CR>
-nmap <F7> :NERDTreeClose<CR>
+" NERDTree shortcuts
+nmap <leader>nt :NERDTree<CR>
+nmap <leader>nc :NERDTreeClose<CR>
 
-" Shortcuts for tabs
+" Tabs shortcuts 
 nmap <leader>tn :tabn<CR>
 nmap <leader>tp :tabp<CR>
 
+" Fugitive shortcuts - Thanks, @ArrowsX 
+nmap <leader>gs :Gstatus<CR>
+nmap <leader>gd :Gdiff<cr>
+nmap <leader>gc :Gcommit<cr>
+nmap <leader>gp :Gpush<cr>
+
+nmap <leader>G :Goyo<CR>
+
+nmap <leader>xmk :Xmark<CR>
