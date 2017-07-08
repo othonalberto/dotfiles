@@ -6,6 +6,7 @@ set laststatus=2
 set showtabline=2
 set mouse=
 set tabpagemax=20
+set wrap
 
 " Indent etc
 set autoindent
@@ -31,24 +32,10 @@ set noswapfile
 set number
 set ruler
 filetype off
+set ignorecase
 set title
 set cursorline
 set updatetime=250
-
-call plug#begin("~/.vim/plugged")
-
-Plug 'vim-scripts/c.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
-Plug 'junegunn/goyo.vim'
-Plug 'junegunn/vim-xmark', { 'do': 'make' }
-Plug 'lervag/vimtex'
-
-call plug#end()
 
 " NERDTree shortcuts
 nmap <leader>nt :NERDTree<CR>
@@ -66,5 +53,20 @@ nmap <leader>gc :Gcommit<cr>
 nmap <leader>gp :Gpush<cr>
 
 nmap <leader>G :Goyo<CR>
-
 nmap <leader>xmk :Xmark<CR>
+
+call plug#begin("~/.vim/plugged")
+
+Plug 'vim-scripts/c.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/vim-xmark', { 'do': 'make' }
+Plug 'lervag/vimtex'
+
+call plug#end()
+
