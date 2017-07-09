@@ -8,3 +8,7 @@
 
 [alias]
     cb = checkout -b
+
+[core]
+    editor = vim
+
