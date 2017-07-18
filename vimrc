@@ -36,6 +36,10 @@ set title
 set cursorline
 set updatetime=250
 
+set hlsearch
+
+let g:airline_section_x = '%{&filetype}'
+
 let mapleader =","
 
 " NERDTree shortcuts
