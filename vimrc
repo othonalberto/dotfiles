@@ -19,10 +19,9 @@ set textwidth=80
 " Theme
 syntax on
 set background=dark
-colorscheme solarized
-set t_Co=16
-let g:solarized_termcolors=16 
+let g:solarized_termcolors=32 
 let g:airline_solarized_bg='dark'
+colorscheme solarized
 
 " Files, backups etc
 set nobackup
@@ -69,6 +68,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/vim-xmark', { 'do': 'make' }
 Plug 'lervag/vimtex'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
