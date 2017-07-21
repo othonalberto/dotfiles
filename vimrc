@@ -23,10 +23,6 @@ let g:solarized_termcolors=32
 let g:airline_solarized_bg='dark'
 colorscheme solarized
 
-" Airline
-let g:airline_solarized_bg='dark'
-let g:airline_section_x = '%{&filetype}'
-
 " Files, backups etc
 set nobackup
 set nowritebackup
@@ -41,6 +37,8 @@ set cursorline
 set updatetime=250
 
 set hlsearch
+
+let g:airline_section_x = '%{&filetype}'
 
 let mapleader =","
 
