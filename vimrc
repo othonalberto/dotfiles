@@ -73,9 +73,9 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/vim-xmark', { 'do': 'make' }
 Plug 'lervag/vimtex'
 Plug 'altercation/vim-colors-solarized'
+Plug 'jonatasbaldin/vim-tips'
 
 call plug#end()
-
 
 noremap <Up> <nop>
 nnoremap <Down> <nop>
