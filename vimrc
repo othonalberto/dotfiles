@@ -52,28 +52,28 @@ nmap <leader>tp :tabp<CR>
 nmap <leader>tc :tabclose<CR>
 
 " Fugitive shortcuts - Thanks, @ArrowsX 
-nmap <leader>gs :Gstatus<CR>
-nmap <leader>gd :Gdiff<cr>
-nmap <leader>gc :Gcommit<cr>
-nmap <leader>gp :Gpush<cr>
+" nmap <leader>gs :Gstatus<CR>
+" nmap <leader>gd :Gdiff<cr>
+" nmap <leader>gc :Gcommit<cr>
+" nmap <leader>gp :Gpush<cr>
 
 nmap <leader>G :Goyo<CR>
-nmap <leader>xmk :Xmark<CR>
+" nmap <leader>xmk :Xmark<CR>
 
 call plug#begin("~/.vim/plugged")
 
-Plug 'vim-scripts/c.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
-Plug 'junegunn/goyo.vim'
-Plug 'junegunn/vim-xmark', { 'do': 'make' }
-Plug 'lervag/vimtex'
-Plug 'altercation/vim-colors-solarized'
-Plug 'jonatasbaldin/vim-tips'
+    " Plug 'vim-scripts/c.vim'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'scrooloose/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
+    " Plug 'tpope/vim-fugitive'
+    " Plug 'airblade/vim-gitgutter'
+    Plug 'junegunn/goyo.vim'
+    " Plug 'junegunn/vim-xmark', { 'do': 'make' }
+    Plug 'lervag/vimtex'
+    Plug 'altercation/vim-colors-solarized'
+    Plug 'jonatasbaldin/vim-tips'
 
 call plug#end()
 
