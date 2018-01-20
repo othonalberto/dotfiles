@@ -1,4 +1,5 @@
-" by @othonalberto
+" por @othonalberto
+" https://gist.github.com/othonalberto/afd1e692a83d1133c0948e9ee4aeca38
 
 set encoding=utf-8
 set nocompatible
